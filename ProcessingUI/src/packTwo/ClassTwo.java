@@ -1,4 +1,3 @@
-//TODO: import processing library code
 package packTwo;
 
 import java.io.File;
