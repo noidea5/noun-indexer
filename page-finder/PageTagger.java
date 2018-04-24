@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class PageTagger {
 	
@@ -66,19 +67,22 @@ public class PageTagger {
 	}
 	
 	//method to get rid of all of the out of order numbers
-	public static void orderPages(ArrayList<Integer> page, ArrayList<Integer> location) {
+	public static void orderPages(ArrayList<Integer> page, ArrayList<Integer> location, ArrayList<Integer> pageXML, ArrayList<Integer> locationXML) {
 		ArrayList<Integer> outputPage = new ArrayList<Integer>();
 		ArrayList<Integer> outputLocation = new ArrayList<Integer>();
-		for (int i = 0; i < page.size(); i++) {
-			if (page.get(i) == page.get(i+1) - 1) {
-				System.out.println(page.get(i));
-				outputPage.add(page.get(i));
-				outputLocation.add(location.get(i));
-			} else {
-				page.remove(i);
-				location.remove(i);
-				i = i-1;
+		
+		HashMap<Integer,ArrayList<Integer>> hm = new HashMap<Integer, ArrayList<Integer>>();
+		int counter = 0;
+		for (int i = 0; i < pageXML.size(); i++) {
+			ArrayList<Integer> cons = new ArrayList<Integer>();
+			
+			while (location.get(counter) < locationXML.get(i)) {
+				cons.add(page.get(counter)-i);
+				
+				counter++;
 			}
+			//TODO: remove duplicates from cons
+			//TODO: store cons in the output data structure
 		}
 	}
 }
