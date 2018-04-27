@@ -66,7 +66,7 @@ public class PageTagger {
 	    return contentBuilder.toString();
 	}
 	
-	//method to get rid of all of the out of order numbers
+	//method to figure out which numbers are page numbers
 	public static void orderPages(ArrayList<Integer> page, ArrayList<Integer> location, ArrayList<Integer> pageXML, ArrayList<Integer> locationXML) {
 		ArrayList<Integer> outputPage = new ArrayList<Integer>();
 		ArrayList<Integer> outputLocation = new ArrayList<Integer>();
@@ -78,7 +78,6 @@ public class PageTagger {
 			
 			while (location.get(counter) < locationXML.get(i)) {
 				cons.add(page.get(counter)-i);
-				
 				counter++;
 			}
 			//TODO: remove duplicates from cons
