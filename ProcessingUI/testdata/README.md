@@ -1,0 +1,1 @@
+This folder stores classifiers used by the Named Entity Recognizer.
