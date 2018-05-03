@@ -47,6 +47,20 @@ public class BookIndexer
 			// System.out.printf("%-18s[%7s, %7s)\t%s\n", "CATEGORY", "START", "END",
 			// "TERM");
 			// System.out.println();
+			
+			PageTagger pageFinder = new PageTagger();
+			ArrayList<Integer> countingUp = new ArrayList<Integer>();
+			
+			for (int i = 0; i < pageLocations.size(); i++) {
+				countingUp.add(i);
+			}
+			
+			pageFinder.findPageNumbers(xmlOutputFile.getAbsolutePath(), countingUp, pageLocations);
+			ArrayList<Integer> truePageNums = pageFinder.getPageNumbers();
+			ArrayList<Integer> truePageLocs = pageFinder.getStartLocations();
+			
+			
+			
 			HashMap<String, ArrayList<Integer>> termsIndex = new HashMap<String, ArrayList<Integer>>();
 			int currentPage = 0;
 			for(int i = 0; i < termList.size(); i++)
@@ -60,14 +74,12 @@ public class BookIndexer
 
 				// add term to termsIndex
 				boolean RECORD_DUPLICATE_TERMS_ON_SAME_PAGE = false;
-				while(currentPage + 1 < pageLocations.size()
-						&& pageLocations.get(currentPage + 1) <= termStartingIndices.get(i))
+				while(currentPage + 1 < truePageLocs.size()
+						&& truePageLocs.get(currentPage + 1) <= termStartingIndices.get(i))
 				{
 					currentPage++;
 				}
-				int numberToAdd = currentPage; // TODO: Change numberToAdd to the page number of the
-												// term. currentPage is according to the pages of the xml file, which is
-												// the OCR output.
+				int numberToAdd = truePageNums.get(currentPage);
 
 				// initialize termsIndex.get(termNoNewLine) to avoid a NullPointerException
 				if(termsIndex.get(termNoNewLine) == null)
