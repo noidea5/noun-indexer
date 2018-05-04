@@ -1,6 +1,5 @@
 //code comes from https://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser/
-//XXX: the line separator string is a final static variable with value "\n"
-//TODO: change getters so that private variables cannot be manipulated through getters
+//XXX: it's necessary that all line separators have the same character length, so the line separator string is a final static variable with value "\n"
 
 package packTwo;
 
@@ -93,10 +92,14 @@ public class XMLParser
 		}
 	}
 
-	//TODO: Change getter so that private variables cannot be manipulated through getters
 	public ArrayList<Integer> getPageLocations()
 	{
-		return pageLocations;
+		ArrayList<Integer> output = new ArrayList<Integer>(pageLocations.size());
+		for(int i = 0; i < pageLocations.size(); i++)
+		{
+			output.set(i, pageLocations.get(i));
+		}
+		return output;
 	}
 
 }

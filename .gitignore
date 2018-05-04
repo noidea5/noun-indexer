@@ -3,3 +3,5 @@ ProcessingUI/classifiers/*.ser
 ProcessingUI/classifiers/*.prop
 ProcessingUI/testdata/*.xml
 ProcessingUI/bin/*
+
+bin/

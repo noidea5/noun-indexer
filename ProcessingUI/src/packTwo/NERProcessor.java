@@ -1,5 +1,3 @@
-// TODO: change getters so that private variables cannot be manipulated through the getters
-
 package packTwo;
 
 import java.util.ArrayList;
@@ -58,16 +56,31 @@ public class NERProcessor
 
 	public ArrayList<String> getTermList()
 	{
+		ArrayList<String> output = new ArrayList<String>(termList.size());
+		for(int i = 0; i < termList.size(); i++)
+		{
+			output.set(i, termList.get(i));
+		}
 		return termList;
 	}
 
 	public ArrayList<String> getCategoryList()
 	{
+		ArrayList<String> output = new ArrayList<String>(categoryList.size());
+		for(int i = 0; i < categoryList.size(); i++)
+		{
+			output.set(i, categoryList.get(i));
+		}
 		return categoryList;
 	}
 
 	public ArrayList<Integer> getTermStartingIndices()
 	{
+		ArrayList<Integer> output = new ArrayList<Integer>(termStartingIndices.size());
+		for(int i = 0; i < termStartingIndices.size(); i++)
+		{
+			output.set(i, termStartingIndices.get(i));
+		}
 		return termStartingIndices;
 	}
 }
