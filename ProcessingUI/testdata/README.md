@@ -1,1 +1,1 @@
-This folder stores classifiers used by the Named Entity Recognizer.
+This folder stores input and output files for any section of the program.
