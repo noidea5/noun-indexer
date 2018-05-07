@@ -1,0 +1,1771 @@
+$ri
+	199
+&c. &c. WILSON
+	127
+* Eom
+	157
+1573
+	3
+1633
+	58
+1636
+	89
+1638
+	89
+1659
+	59
+1660
+	53
+	61
+1661
+	91
+1662
+	75
+1663
+	32
+	110
+1669
+	12
+1670
+	63
+1671
+	26
+	28
+	34
+1672
+	91
+1674
+	62
+1677
+	33
+1679
+	90
+1686
+	112
+	124
+1688
+	73
+1689
+	96
+1691
+	97
+1692
+	112
+1698
+	113
+1699
+	120
+16th of June, 1752
+	188
+1704
+	98
+1711
+	115
+1713
+	190
+1714
+	124
+1716
+	64
+1718
+	190
+1721
+	190
+1722
+	120
+1726
+	190
+1727
+	190
+1732
+	182
+1735
+	183
+1736
+	120
+	182
+	190
+1737
+	183
+1740
+	27
+	120
+1746
+	186
+1747
+	186
+1750
+	186
+	187
+1752
+	188
+1756
+	27
+1757
+	151
+1758
+	184
+1761
+	124
+1781
+	120
+1785
+	120
+1788
+	120
+1789
+	120
+17th century
+	125
+1800
+	120
+1802
+	144
+1821
+	146
+1830
+	-11
+1831
+	184
+1839
+	190
+1850
+	-11
+	27
+1853
+	120
+1855
+	170
+1859
+	29
+1871
+	76
+1876
+	141
+1877
+	-24
+1th Sept. 1877
+	-1
+2000
+	63
+4
+	-18
+72
+	22
+86
+	85
+Adam
+	66
+Addison
+	123
+	124
+Addison and Swift
+	149
+Aldrich
+	62
+Almighty God
+	102
+Andrewes
+	-9
+	-1
+	56
+Anglo
+	120
+Anne
+	98
+	124
+Apostles
+	36
+Apostolical Churchmanship
+	-6
+April 11
+	113
+April 1877
+	141
+	151
+Archbishop Potter
+	183
+	186
+Archbishop Seeker
+	180
+Archbishop Tenison
+	113
+Archdeacon
+	95
+Archdeacon Hare
+	175
+Archdeacon Horrobin
+	116
+Athens
+	66
+Atterbury
+	62
+Aug. 7, 1736
+	190
+August
+	184
+Augustine
+	-19
+	4
+	8
+	47
+Avhich
+	170
+BEVERIDGE
+	82
+	92
+	100
+BUTLER
+	144
+	148
+	150
+	160
+	162
+	178
+	182
+	184
+	186
+	188
+Bacon
+	36
+Badworth
+	113
+Balaam
+	135
+	172
+Barbara
+	34
+Barrow
+	-9
+	26
+	29
+	31
+	32
+	33
+	36
+	38
+	39
+	40
+	42
+	44
+	46
+	47
+	48
+	49
+	53
+	54
+	89
+	99
+	125
+	130
+Barrow%
+	69
+Bartlett
+	190
+Barwick
+	113
+Bath
+	191
+Baxter
+	54
+	63
+	74
+	75
+Ben Jonson
+	3
+Berkeley
+	132
+	182
+Berkshire
+	180
+Bethlehem
+	28
+Bethnal Green
+	26
+Beveridge
+	-6
+	53
+	54
+	69
+	80
+	82
+	83
+	85
+	88
+	89
+	90
+	91
+	95
+	97
+	101
+	106
+	126
+Bible
+	84
+Biographia Britannica
+	95
+Bishop Andrewes
+	3
+	121
+Bishop Beveridge
+	80
+	82
+	99
+Bishop Blomfield
+	-11
+Bishop Burnet
+	59
+Bishop Butler
+	27
+	134
+	136
+	179
+	185
+	189
+	190
+Bishop Gibson
+	119
+Bishop Hall
+	3
+	121
+Bishop Levinz
+	113
+Bishop Sanderson
+	120
+Bishop Talbot
+	190
+Bishop Ward
+	75
+Bishop Ward of Salisbury
+	63
+Bishop Wilson
+	114
+	119
+	124
+	125
+	130
+Bishopscourt
+	115
+Bishopsgate
+	-11
+Bishopsgate Street
+	28
+Blair
+	126
+	128
+Bloody Assizes
+	124
+Bolingbroke
+	111
+Book of History
+	123
+Boyle
+	57
+Brandenburg
+	190
+Bridewell
+	28
+Brighton
+	170
+Bristol
+	142
+	183
+	184
+	185
+	186
+	187
+	190
+	191
+Brown
+	151
+Bunyan
+	47
+	63
+Burnet
+	60
+Burns
+	162
+Busby
+	59
+Butler
+	-9
+	123
+	124
+	126
+	132
+	134
+	135
+	138
+	139
+	141
+	142
+	143
+	146
+	147
+	148
+	149
+	150
+	151
+	152
+	153
+	154
+	156
+	158
+	160
+	161
+	163
+	166
+	167
+	168
+	170
+	171
+	172
+	173
+	175
+	176
+	177
+	178
+	180
+	181
+	182
+	183
+	184
+	185
+	186
+	187
+	188
+	189
+CII
+	94
+Calvin
+	55
+Cambridge
+	-22
+	3
+	29
+	31
+	33
+	54
+	80
+	89
+Camden
+	119
+Camden Britannica
+	120
+Campbell
+	10
+Canon Barry
+	-14
+Canon of Bristol Cathedral
+	185
+Canon of Christ Church
+	52
+	62
+Canon of St. Pauls
+	-22
+Canon of Westminster
+	-22
+Canterbury
+	95
+	183
+	184
+Canterbury         1747 Translated
+	191
+Carlyle
+	127
+Caroline
+	125
+	191
+Castle Bushen
+	117
+Castle Kushen
+	108
+Cathe
+	-16
+	77
+Cathedral
+	183
+Catholic Church
+	85
+	87
+Catliedral
+	13
+Chapel of Kin College
+	-14
+Chapman
+	190
+Charles
+	56
+	60
+	76
+Charles Edward
+	124
+Charles I.
+	52
+	72
+	73
+	172
+Charles II
+	33
+	37
+	52
+Charles II.
+	41
+	60
+Cheshire
+	110
+Chester
+	110
+Chiist
+	189
+Chris
+	46
+Christ
+	9
+	27
+	61
+	92
+	93
+Christ Church
+	59
+	63
+Christ Church Hall
+	59
+Christ's Hospital
+	28
+Christendom
+	41
+Christian Church
+	-4
+Christmas Eve
+	99
+Chrysostom
+	-19
+Chubb
+	141
+Church
+	-20
+	-15
+	-5
+	-4
+	13
+	54
+	55
+	57
+	62
+	74
+	86
+	90
+	94
+	98
+	118
+	150
+Church and State
+	58
+Church of Eng
+	53
+	169
+Church of England
+	-5
+	54
+	55
+	63
+	75
+	90
+	99
+	106
+Church of England Koyalist
+	64
+Churchyard
+	27
+Churcli
+	53
+Cicero
+	68
+City
+	100
+Clarke
+	125
+	126
+	129
+	180
+	182
+	190
+Clo.rendon Press
+	134
+Cole
+	189
+Coleridge
+	68
+	125
+	128
+	189
+College
+	89
+Collins
+	141
+Combina
+	135
+Commission
+	60
+Constantinople
+	33
+	49
+Corinth
+	164
+Cornhill
+	91
+Cosin
+	55
+	74
+	77
+Court
+	118
+Cranmer
+	55
+Cromwell
+	53
+	56
+	59
+	60
+	74
+	89
+Cudworth
+	57
+Curacy of Mount Sorrel
+	99
+D.D.
+	-22
+	29
+	146
+DONNE
+	18
+Darlington
+	181
+David
+	44
+	82
+Dean Milman
+	13
+Dean Tucker
+	185
+Dean of Canterbury
+	95
+Deanery of Christ Church
+	59
+Deanery of St. Paul's
+	11
+Deans
+	62
+Dec. 3, 1738
+	191
+December 3, 1738
+	183
+Demosthenes and Burke
+	64
+Divinity
+	63
+Donne
+	-9
+	-6
+	0
+	1
+	2
+	3
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+	14
+	19
+	20
+	21
+	22
+	23
+	24
+	25
+	125
+Dublin
+	8
+	110
+Duke of Ormond
+	63
+Durham
+	-22
+	134
+	135
+	142
+	181
+	186
+	187
+	190
+	191
+E. M. GouLBiRis
+	-22
+E. P. DUTTON & CO.
+	-24
+Earth
+	129
+East
+	2
+Easter
+	28
+Eastern
+	62
+Ecclesi
+	55
+Ecclesiastical History
+	-22
+Edward Talbot
+	181
+Edward VL
+	55
+Eeforma
+	49
+Eegency Bill
+	187
+Eestora
+	128
+Eevealed Religion
+	182
+Eevelation
+	177
+Ehetoric and Ethics of Aristotle
+	65
+Eighteenth   Century
+	141
+Eighteenth Cen
+	151
+Eighteenth Century
+	108
+Eisliop Wilson
+	130
+Eliot
+	56
+Eliza
+	22
+Elizabeth
+	55
+Emmaus
+	69
+England
+	-3
+	33
+	52
+	55
+	56
+	57
+	73
+	77
+	86
+	96
+	114
+	116
+	127
+	181
+	184
+	186
+Eno
+	127
+Eobert
+	-18
+Eolls  Autumn
+	190
+Eucha
+	-18
+Eucharist
+	-18
+Euclid
+	32
+Exeter
+	181
+Ezekiel
+	23
+F. W. Farrar
+	-22
+Feb. 16,1668
+	128
+Feb. 21st
+	89
+Fenelon
+	124
+Francis Bacon
+	3
+Friday
+	23
+	27
+Friday, 1077
+	33
+George Herbert
+	3
+George II
+	119
+George II.
+	183
+George IL
+	124
+Gib
+	120
+Glencoe
+	124
+Gloucester
+	57
+	180
+	185
+Gloucester Post Office
+	180
+God Himself
+	71
+Gooch
+	183
+Goodwin
+	59
+Gospel
+	46
+	147
+Government
+	59
+Great Eebellion
+	2
+Great Kevolution
+	124
+Grod
+	104
+Grosart
+	8
+H. Felton
+	102
+Hales
+	54
+Hall
+	-1
+Hammond
+	54
+Hampden
+	56
+	89
+Hare
+	176
+Hart Hall
+	3
+Hartley
+	126
+Harvey
+	126
+Haughton
+	181
+	190
+Heaven
+	-17
+Hector Butler
+	181
+Henry Philpotts
+	181
+Henry VIII
+	55
+Henry Wotton
+	3
+Her Majesty
+	182
+Hewetson
+	122
+Higli Clmrch
+	57
+Hoadly
+	182
+Hogarth
+	127
+Holy Communion
+	183
+Holy Spirit
+	160
+Hooker
+	-20
+	-16
+	-15
+	55
+	74
+Horace
+	128
+Horace Walpole
+	187
+Horsley
+	-1
+Hospital
+	26
+	27
+House
+	114
+House of Bruns
+	124
+House of Lords
+	126
+	172
+Howe
+	54
+Human Nature
+	150
+	171
+Hume
+	123
+	124
+	128
+Ian
+	117
+Ignatius Loyola
+	4
+Ilt
+	21
+Imitatio Christi
+	121
+Iroui Samuel Woocirord
+	123
+Isaac Barrow
+	29
+Isaac ISTewton
+	35
+Isaac Newton
+	32
+	57
+Isaiah
+	128
+Izaak Walton
+	3
+	5
+J. B. LiGHTFOOT
+	-22
+J. E. K. St. James
+	-1
+J. H. Newman
+	115
+J. J. Blunt
+	-3
+JOHN EDWAED KEMPE
+	-24
+Jael
+	156
+James
+	16
+	56
+	184
+James II
+	95
+James II.
+	63
+Jane
+	63
+Jeremiah
+	60
+Jeremy Tay
+	121
+Jeremy Taylor
+	52
+	53
+	54
+	57
+	68
+	69
+	121
+Jesus Christ Himself
+	17
+Jiave
+	145
+John
+	188
+John Bunyan
+	4
+John Donne
+	2
+	3
+	18
+John Henry Newman
+	-11
+	135
+John Owen
+	59
+John Sobieski
+	62
+John W. Parker
+	190
+John Wesley
+	65
+John iv
+	139
+	153
+John t Elegy
+	12
+John the Baptist
+	72
+Johnson
+	123
+	124
+	130
+Jonathan Swift
+	108
+	110
+Joseph Butler
+	134
+	135
+	190
+Judas
+	23
+July 29, 1660
+	60
+June 16, 1752
+	191
+June 17, 1877
+	26
+June 20, 1752
+	190
+	191
+June 29, 1722
+	117
+June 5, 1713
+	101
+Jupiter
+	44
+Keble
+	110
+	120
+Keforma
+	-3
+Ken
+	72
+	97
+	132
+Ken and Wilson
+	132
+Kev
+	120
+Kevelation
+	137
+Keward
+	28
+King
+	31
+	33
+	40
+	58
+	61
+	72
+	73
+	75
+	89
+	96
+	98
+	100
+King Charles
+	100
+King James
+	95
+King William
+	97
+King's Coll.
+	-22
+Kings
+	73
+Kobert Nelson
+	101
+Kobertson
+	-4
+Kom
+	160
+Koman
+	57
+Koman Catholics
+	55
+Koyal Society
+	63
+Lamb of God
+	93
+Lati
+	57
+Latin
+	34
+Lave
+	78
+Lawrence Hyde
+	62
+Leicestershire
+	89
+Leighton
+	-1
+Leslie Stephen
+	129
+	141
+	149
+Lincoln
+	-22
+	3
+	12
+Locke
+	57
+	59
+	62
+	63
+London
+	-22
+	-15
+	-3
+	13
+	23
+	26
+	27
+	30
+	34
+	58
+	75
+	100
+	125
+	141
+	146
+	190
+London Workhouse
+	28
+Long Parliament
+	89
+Long Saile
+	113
+Lora voluptati
+	34
+Lord
+	92
+	99
+	104
+	105
+Lord Bacon
+	31
+Lord Chancellor Talbot
+	183
+	190
+Lord Clarendon
+	52
+	113
+Lord Derby
+	112
+	113
+	116
+	117
+Lord Durby
+	113
+Lord Himself
+	88
+Lord Kussell
+	63
+Lord Macuulay
+	96
+Lord Mayor
+	27
+	34
+Lord Rochester
+	62
+Lord Shaftesbury
+	166
+Lord Strange
+	112
+Loudon
+	144
+Louis XIV.
+	41
+Luke iv
+	-12
+Luke vi
+	175
+Luke vii
+	0
+Luke xiii
+	0
+M. Arnold
+	109
+M.A.
+	-24
+	-22
+Macaulay
+	77
+	97
+	128
+Madame Home
+	116
+Mahon
+	127
+Maitland
+	27
+Manx
+	125
+Manx Bible
+	117
+Mar. 17, 1714
+	190
+March, 1707
+	98
+Margaret Professor of Divinity
+	-22
+Mark   Puttison
+	126
+Marlborough
+	124
+Mary
+	55
+	124
+Mary Magdalen
+	6
+Massacre of St. Bartholomew
+	3
+Massillon
+	53
+	64
+	100
+Mastership of Trinity College
+	33
+Matt
+	158
+	171
+Matthew Arnold
+	131
+May 18, 1692
+	180
+	190
+May 24, 1740
+	191
+May, 1736
+	191
+Mayne
+	18
+Milman
+	0
+	10
+Milton
+	62
+	126
+Monmouth
+	63
+Moore
+	131
+Moscow
+	90
+Mozley
+	134
+	135
+	156
+Murray
+	-14
+N.S.
+	89
+	98
+Nantes
+	75
+Napier
+	29
+National Chiircli
+	-14
+Natural
+	182
+New Church
+	112
+New Testament
+	139
+Newham
+	89
+Newman
+	127
+Newton
+	32
+	182
+Noncon
+	56
+	181
+Norwich
+	-22
+Nov. 20, 1737
+	191
+Nov. 9, 1750
+	191
+Novem
+	187
+October 1869
+	34
+October 21, 1841
+	169
+Oliver Cromwell
+	62
+Oriel
+	190
+Oriel College
+	181
+Orient
+	1
+Owen
+	59
+Oxford
+	-11
+	3
+	52
+	59
+	62
+	63
+	135
+	181
+	183
+Oxford Editor
+	89
+Paddington
+	12
+Paley
+	-1
+	143
+	144
+	146
+	149
+Parliament
+	63
+Parliamentary Commissioners
+	33
+Patmos
+	113
+	114
+Paul
+	-10
+	9
+	13
+	27
+	68
+	95
+Paul appej
+	164
+Paul's Cross
+	27
+Peace of Utrecht
+	124
+Pearson
+	47
+	54
+	57
+Perpetual Curate of Trinity Chapel
+	170
+Peter
+	36
+Peter Cunningliam
+	27
+Philaret
+	90
+Pococke
+	62
+Poland
+	62
+Prebendary of Canterbury
+	95
+Prebendary of Westminster
+	62
+Pri
+	120
+Prince Palatine
+	135
+Privy Council
+	117
+Protes
+	55
+Pym
+	56
+Queen Caroline
+	118
+	182
+	190
+Quintilian
+	-9
+Robert Anderson
+	170
+Robert South
+	58
+Rochester
+	182
+	183
+Rome
+	36
+	86
+S. Asaph
+	98
+S. John's College
+	89
+S. Paul
+	98
+S. Peter
+	80
+	91
+	95
+S. Stephen
+	100
+ST.
+	-8
+ST. James's
+	144
+Sacra Privata
+	121
+Samuel Clarke
+	180
+Sander
+	54
+Sanderson
+	-9
+	-1
+	74
+Saturday
+	12
+	116
+Saviour
+	159
+Savoy Conference
+	73
+	75
+	89
+Scotland
+	89
+Scrip
+	175
+Selden
+	3
+Serin
+	93
+Serm
+	140
+	141
+Seventeenth Century
+	108
+Shairp
+	-11
+Shakespeare
+	3
+Sheldon
+	54
+	75
+Sherlock
+	182
+Simon
+	10
+Smollett
+	127
+Sodor
+	109
+	110
+	113
+South
+	52
+South whicli
+	68
+Southampton
+	76
+Soutli
+	78
+Spirit of God
+	84
+Spital
+	27
+Spital Sermon
+	38
+Spital Square
+	27
+St. Augustine
+	0
+St. Bartholomew
+	28
+St. Bride
+	27
+St. Dunstan
+	12
+St. James
+	-13
+	128
+St. Luke vii
+	10
+St. Mark I      jSAeTrere tt&js d/couere
+	-12
+St. Mary
+	-11
+St. Mary Spital
+	27
+St. Matt
+	160
+St. Patrick's
+	110
+St. Paul
+	-18
+	0
+	1
+	2
+	13
+	19
+	137
+	183
+	191
+St. Paul's
+	12
+St. Paul's Cathedral
+	-18
+	10
+	13
+St. Stephen's Church
+	185
+St. Thomas
+	28
+Stanhope
+	126
+	181
+State
+	41
+Stuart Princes
+	72
+Sunday
+	-18
+	-15
+	-10
+	26
+	27
+	28
+	116
+Supper
+	99
+	120
+Talbot
+	182
+Taunton
+	-22
+Taylor
+	-1
+	68
+	100
+	125
+Tewkesbury
+	180
+Thomas Bartlett
+	190
+Thomas Wilson
+	108
+	109
+	110
+	133
+Thou
+	157
+Thou hast
+	10
+Thyself
+	10
+Tillotson
+	-1
+	54
+	65
+	95
+	125
+	126
+Tim
+	26
+Tindal
+	141
+Toland
+	141
+Trinity College
+	3
+	31
+Tucker
+	185
+Tuckney
+	89
+Tuesday
+	188
+Tully
+	-9
+Universal Church
+	-7
+	86
+University
+	3
+	31
+	42
+	52
+	60
+	62
+	89
+Vandyck
+	18
+Vicarage of Ealing
+	91
+Victory of Faith
+	175
+Virgin Mary
+	27
+W. C. Lake
+	-22
+W. Paley
+	146
+W. R. Clark
+	-22
+WILSON
+	114
+	120
+	132
+Walton
+	0
+	2
+	9
+	11
+	12
+	18
+	19
+	23
+Wantage
+	180
+Wednesday
+	28
+Wells
+	-22
+	80
+	97
+Wesley
+	124
+	126
+West End
+	-11
+Westminster
+	62
+Westminster School
+	58
+Whitehall
+	12
+	23
+	61
+	89
+Whitfield
+	124
+	132
+Whitsunday
+	13
+William
+	57
+	63
+William Beveridge
+	106
+William IIL
+	124
+William and Mary
+	96
+Wilson
+	-6
+	108
+	112
+	113
+	115
+	120
+	121
+	122
+	123
+	124
+	126
+	129
+	131
+	132
+	133
+Wilt Thou
+	9
+Yorkshire
+	113
+Young Friend
+	162
+Zech
+	1
+accom
+	-5
+afternoon
+	15
+	27
+cal
+	-18
+	129
+cir
+	106
+cise
+	-17
+earnest
+	19
+	99
+	103
+	168
+eighteenth century
+	112
+emu
+	164
+evening
+	111
+	116
+faW
+	170
+fall
+	163
+	171
+	174
+fidelity
+	190
+fiom
+	165
+gasp
+	24
+gra
+	59
+incom
+	-5
+last century
+	4
+last day of March, 1631
+	25
+last half century
+	-12
+liberality this afternoon
+	31
+liever
+	143
+minster Abbey
+	98
+mons
+	-19
+	120
+mony
+	94
+	162
+night
+	119
+pa
+	117
+pri
+	84
+prin
+	153
+reck
+	41
+sT. James's
+	128
+seventeenth century
+	31
+	123
+spring
+	-3
+	67
+spring of 1740
+	183
+summer
+	114
+theu
+	31
+vata
+	120
+vogue
+	-11
+winter
+	114
+year 1614
+	11
+year 1653
+	89
+£20
+	110

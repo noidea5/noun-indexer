@@ -67,7 +67,7 @@ public class PageTagger
 		for(int i = 0; i < pageXML.size(); i++)
 		{
 			ArrayList<Integer> dif = new ArrayList<Integer>();
-			while(numberLocations.get(counter) < locationXML.get(i))
+			while(counter < numberLocations.size() && numberLocations.get(counter) < locationXML.get(i))
 			{
 				dif.add(foundNumbers.get(counter) - pageXML.get(i));
 				counter++;
@@ -125,22 +125,22 @@ public class PageTagger
 
 	public ArrayList<Integer> getPageNumbers()
 	{
-		ArrayList<Integer> output = new ArrayList<Integer>(pageNumbers.size());
+		ArrayList<Integer> output = new ArrayList<Integer>();
 		for(int i = 0; i < pageNumbers.size(); i++)
 		{
-			output.set(i, pageNumbers.get(i));
+			output.add(pageNumbers.get(i));
 		}
-		return pageNumbers;
+		return output;
 	}
 
 	public ArrayList<Integer> getStartLocations()
 	{
-		ArrayList<Integer> output = new ArrayList<Integer>(startLocations.size());
+		ArrayList<Integer> output = new ArrayList<Integer>();
 		for(int i = 0; i < startLocations.size(); i++)
 		{
-			output.set(i, startLocations.get(i));
+			output.add(startLocations.get(i));
 		}
-		return startLocations;
+		return output;
 	}
 
 	private static boolean isDigit(char input)

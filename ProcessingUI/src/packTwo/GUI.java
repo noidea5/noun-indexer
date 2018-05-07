@@ -162,5 +162,6 @@ public class GUI extends PApplet
 	{
 		errorMessage = "Starting generating an index.";
 		bookProcessor.processFile();
+		errorMessage = "Done generating an index.";
 	}
 }
