@@ -28,7 +28,7 @@ public class BookIndexer
 	
 	public void setClassifier(File selection)
 	{
-		classifierLocation = selection.getAbsolutePath();
+		classifierLocation = selection.getName();
 	}
 	
 	public void setIndexOutputLocation(File selection)

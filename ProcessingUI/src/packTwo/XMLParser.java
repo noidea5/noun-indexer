@@ -94,10 +94,10 @@ public class XMLParser
 
 	public ArrayList<Integer> getPageLocations()
 	{
-		ArrayList<Integer> output = new ArrayList<Integer>(pageLocations.size());
+		ArrayList<Integer> output = new ArrayList<Integer>();
 		for(int i = 0; i < pageLocations.size(); i++)
 		{
-			output.set(i, pageLocations.get(i));
+			output.add(pageLocations.get(i));
 		}
 		return output;
 	}
