@@ -12,20 +12,24 @@ public class PageTagger
 	private ArrayList<Integer> pageNumbers;
 	private ArrayList<Integer> startLocations;
 
-	public void findPageNumbers(String filePath, ArrayList<Integer> pageXML, ArrayList<Integer> locationXML)
+	public void findPageNumbersFromFile(String filePath, ArrayList<Integer> pageXML, ArrayList<Integer> locationXML)
 	{
 		String inputFileContents = readFileIntoString(filePath);
+		findPageNumbersFromString(inputFileContents, pageXML, locationXML);
+	}
 
+	public void findPageNumbersFromString(String bookText, ArrayList<Integer> pageXML, ArrayList<Integer> locationXML)
+	{
 		ArrayList<Integer> foundNumbers = new ArrayList<Integer>();		//array for all numbers in the text file
 		ArrayList<Integer> location = new ArrayList<Integer>();		//corresponding array for the number's location
 
 		int counter = 0;
 		String foundDigits = "";		//stores consecutive digits found in the text. it must cleared for each new number found
-		while(counter < inputFileContents.length())
+		while(counter < bookText.length())
 		{
-			if(isDigit(inputFileContents.charAt(counter)))
+			if(isDigit(bookText.charAt(counter)))
 			{
-				foundDigits += inputFileContents.charAt(counter);
+				foundDigits += bookText.charAt(counter);
 			}
 			else
 			{
@@ -125,20 +129,20 @@ public class PageTagger
 
 	public ArrayList<Integer> getPageNumbers()
 	{
-		ArrayList<Integer> output = new ArrayList<Integer>(pageNumbers.size());
+		ArrayList<Integer> output = new ArrayList<Integer>();
 		for(int i = 0; i < pageNumbers.size(); i++)
 		{
-			output.set(i, pageNumbers.get(i));
+			output.add(pageNumbers.get(i));
 		}
 		return pageNumbers;
 	}
 
 	public ArrayList<Integer> getStartLocations()
 	{
-		ArrayList<Integer> output = new ArrayList<Integer>(startLocations.size());
+		ArrayList<Integer> output = new ArrayList<Integer>();
 		for(int i = 0; i < startLocations.size(); i++)
 		{
-			output.set(i, startLocations.get(i));
+			output.add(startLocations.get(i));
 		}
 		return startLocations;
 	}

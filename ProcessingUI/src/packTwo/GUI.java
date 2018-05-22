@@ -11,6 +11,7 @@ public class GUI extends PApplet
 {
 	private String errorMessage;
 	private BookIndexer bookProcessor;
+	private boolean[] categoriesToFind;
 
 	public static void main(String[] args)
 	{
@@ -28,6 +29,11 @@ public class GUI extends PApplet
 	{
 		errorMessage = "Program loaded.";
 		bookProcessor = new BookIndexer();
+		categoriesToFind = new boolean[7];
+		for(int i = 0; i < categoriesToFind.length; i++)
+		{
+			categoriesToFind[i] = true;
+		}
 	}
 
 	@Override
@@ -38,10 +44,33 @@ public class GUI extends PApplet
 		stroke(255, 0, 0);
 		noFill();
 		rect((float) (0.1 * width), (float) (0.1 * height), (float) (0.3 * width), (float) (0.2 * height));
-		rect((float) (0.1 * width), (float) (0.4 * height), (float) (0.3 * width), (float) (0.2 * height));
-		rect((float) (0.1 * width), (float) (0.7 * height), (float) (0.3 * width), (float) (0.2 * height));
 		rect((float) (0.6 * width), (float) (0.1 * height), (float) (0.3 * width), (float) (0.2 * height));
-		rect((float) (0.6 * width), (float) (0.4 * height), (float) (0.3 * width), (float) (0.2 * height));
+
+		noStroke();
+		for(int i = 0; i < 4; i++)
+		{
+			if(categoriesToFind[i])
+			{
+				fill(0, 255, 0);
+			}
+			else
+			{
+				fill(255, 0, 0);
+			}
+			rect((float) (0.1 * width), (float) ((0.52 + 0.12 * i) * height), (float) (0.08 * height), (float) (0.08 * height));
+		}
+		for(int i = 0; i < 3; i++)
+		{
+			if(categoriesToFind[i + 4])
+			{
+				fill(0, 255, 0);
+			}
+			else
+			{
+				fill(255, 0, 0);
+			}
+			rect((float) (0.6 * width), (float) ((0.52 + 0.12 * i) * height), (float) (0.08 * height), (float) (0.08 * height));
+		}
 
 		noStroke();
 		fill(0, 0, 0);
@@ -53,27 +82,21 @@ public class GUI extends PApplet
 		textAlign(LEFT, BOTTOM);
 		text("Select", (float) (width * 0.1), (float) (height * 0.2));
 		textAlign(LEFT, TOP);
-		text("XML File", (float) (width * 0.1), (float) ((height * 0.2)));
+		text("Book", (float) (width * 0.1), (float) ((height * 0.2)));
 
 		textAlign(LEFT, BOTTOM);
-		text("Select", (float) (width * 0.1), (float) (height * 0.5));
+		text("Generate", (float) (width * 0.6), (float) (height * 0.2));
 		textAlign(LEFT, TOP);
-		text("Classifier", (float) (width * 0.1), (float) ((height * 0.5)));
+		text("Index", (float) (width * 0.6), (float) ((height * 0.2)));
 
-		textAlign(LEFT, BOTTOM);
-		text("Select temp", (float) (width * 0.1), (float) (height * 0.8));
-		textAlign(LEFT, TOP);
-		text("text location", (float) (width * 0.1), (float) ((height * 0.8)));
-
-		textAlign(LEFT, BOTTOM);
-		text("Select index", (float) (width * 0.6), (float) (height * 0.2));
-		textAlign(LEFT, TOP);
-		text("output location", (float) (width * 0.6), (float) ((height * 0.2)));
-
-		textAlign(LEFT, BOTTOM);
-		text("Generate", (float) (width * 0.6), (float) (height * 0.5));
-		textAlign(LEFT, TOP);
-		text("Index", (float) (width * 0.6), (float) ((height * 0.5)));
+		textAlign(LEFT, CENTER);
+		text("Organization", (float) (width * 0.10 + 0.08 * height + 5), (float) ((height * 0.56)));
+		text("Person", (float) (width * 0.1 + 0.08 * height + 5), (float) ((height * 0.68)));
+		text("Location", (float) (width * 0.1 + 0.08 * height + 5), (float) ((height * 0.80)));
+		text("Percent", (float) (width * 0.1 + 0.08 * height + 5), (float) ((height * 0.92)));
+		text("Date", (float) (width * 0.6 + 0.08 * height + 5), (float) ((height * 0.56)));
+		text("Time", (float) (width * 0.6 + 0.08 * height + 5), (float) ((height * 0.68)));
+		text("Money", (float) (width * 0.6 + 0.08 * height + 5), (float) ((height * 0.80)));
 	}
 
 	@Override
@@ -81,86 +104,75 @@ public class GUI extends PApplet
 	{
 		if(((0.1 * width) < mouseX) && (mouseX < (0.4 * width)) && ((0.1 * height) < mouseY) && (mouseY < (0.3 * height)))
 		{
-			selectInput("Select the downloaded XML file", "selectXML");
-		}
-		else if(((0.1 * width) < mouseX) && (mouseX < (0.4 * width)) && ((0.4 * height) < mouseY) && (mouseY < (0.6 * height)))
-		{
-			selectInput("Select the classifier that the NER will use", "selectClassifier");
-		}
-		else if(((0.1 * width) < mouseX) && (mouseX < (0.4 * width)) && ((0.7 * height) < mouseY) && (mouseY < (0.9 * height)))
-		{
-			selectInput("Select where the program will write the book's plaintext to", "selectTextLocation");
+			selectInput("Select the book file", "inputSelected");
 		}
 		else if(((0.6 * width) < mouseX) && (mouseX < (0.8 * width)) && ((0.1 * height) < mouseY) && (mouseY < (0.3 * height)))
 		{
-			selectInput("Select where the program will write the generated index to", "selectOutputLocation");
-		}
-		else if(((0.6 * width) < mouseX) && (mouseX < (0.8 * width)) && ((0.4 * height) < mouseY) && (mouseY < (0.6 * height)))
-		{
 			processBook();
 		}
+		else if(((0.1 * width) < mouseX) && (mouseX < (0.1 * width + 0.08 * height)) && ((0.52 * height) < mouseY) && (mouseY < (0.60 * height)))
+		{
+			categoriesToFind[0] = !categoriesToFind[0];
+		}
+		else if(((0.1 * width) < mouseX) && (mouseX < (0.1 * width + 0.08 * height)) && ((0.64 * height) < mouseY) && (mouseY < (0.72 * height)))
+		{
+			categoriesToFind[1] = !categoriesToFind[1];
+		}
+		else if(((0.1 * width) < mouseX) && (mouseX < (0.1 * width + 0.08 * height)) && ((0.76 * height) < mouseY) && (mouseY < (0.84 * height)))
+		{
+			categoriesToFind[2] = !categoriesToFind[2];
+		}
+		else if(((0.1 * width) < mouseX) && (mouseX < (0.1 * width + 0.08 * height)) && ((0.88 * height) < mouseY) && (mouseY < (0.96 * height)))
+		{
+			categoriesToFind[3] = !categoriesToFind[3];
+		}
+		else if(((0.6 * width) < mouseX) && (mouseX < (0.6 * width + 0.08 * height)) && ((0.52 * height) < mouseY) && (mouseY < (0.60 * height)))
+		{
+			categoriesToFind[4] = !categoriesToFind[4];
+		}
+		else if(((0.6 * width) < mouseX) && (mouseX < (0.6 * width + 0.08 * height)) && ((0.64 * height) < mouseY) && (mouseY < (0.72 * height)))
+		{
+			categoriesToFind[5] = !categoriesToFind[5];
+		}
+		else if(((0.6 * width) < mouseX) && (mouseX < (0.6 * width + 0.08 * height)) && ((0.76 * height) < mouseY) && (mouseY < (0.84 * height)))
+		{
+			categoriesToFind[6] = !categoriesToFind[6];
+		}
 	}
 
-	public void selectXML(File selection)
+	public void inputSelected(File selection)
 	{
 		if(selection == null)
 		{
-			println("You didn't select an acceptable xml file.");
-			errorMessage = "File selection error (XML).";
+			errorMessage = "Input file selection error.";
 		}
 		else
 		{
-			println("You selected the file " + selection.getAbsolutePath());
 			bookProcessor.selectInputFile(selection);
-			errorMessage = "Selecting a XML File succeeded.";
-		}
-	}
-
-	public void selectClassifier(File selection)
-	{
-		if(selection == null)
-		{
-			println("You didn't select an acceptable classifier file.");
-			errorMessage = "File selection error (classifier).";
-		}
-		else
-		{
-			bookProcessor.setClassifier(selection);
-			errorMessage = "Selecting a classifier succeeded.";
-		}
-	}
-
-	public void selectTextLocation(File selection)
-	{
-		if(selection == null)
-		{
-			println("You didn't select an acceptable temporary file location.");
-			errorMessage = "File selection error (text).";
-		}
-		else
-		{
-			bookProcessor.setPlaintextLocation(selection);
-			errorMessage = "Selecting temp text location succeeded.";
-		}
-	}
-
-	public void selectOutputLocation(File selection)
-	{
-		if(selection == null)
-		{
-			println("You didn't select an acceptable index output location.");
-			errorMessage = "File selection error (index).";
-		}
-		else
-		{
-			bookProcessor.setIndexOutputLocation(selection);
-			errorMessage = "Selecting index location succeeded.";
+			errorMessage = "Selecting an input file succeeded.";
 		}
 	}
 
 	public void processBook()
 	{
 		errorMessage = "Starting generating an index.";
+		processing.data.StringList acceptableCategories = new processing.data.StringList();
+		final String[] categories = new String[]{	"Organization",
+													"Person",
+													"Location",
+													"Percent",
+													"Date",
+													"Time",
+													"Money"};
+		for(int i = 0; i < 7; i++)
+		{
+			if(categoriesToFind[i])
+			{
+				acceptableCategories.append(categories[i]);
+			}
+		}
+		bookProcessor.setAcceptableCategories(acceptableCategories);
 		bookProcessor.processFile();
+		errorMessage = "Done generating an index.";
 	}
 }

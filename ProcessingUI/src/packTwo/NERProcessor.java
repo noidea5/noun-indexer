@@ -56,30 +56,30 @@ public class NERProcessor
 
 	public ArrayList<String> getTermList()
 	{
-		ArrayList<String> output = new ArrayList<String>(termList.size());
+		ArrayList<String> output = new ArrayList<String>();
 		for(int i = 0; i < termList.size(); i++)
 		{
-			output.set(i, termList.get(i));
+			output.add(termList.get(i));
 		}
 		return termList;
 	}
 
 	public ArrayList<String> getCategoryList()
 	{
-		ArrayList<String> output = new ArrayList<String>(categoryList.size());
+		ArrayList<String> output = new ArrayList<String>();
 		for(int i = 0; i < categoryList.size(); i++)
 		{
-			output.set(i, categoryList.get(i));
+			output.add(categoryList.get(i));
 		}
 		return categoryList;
 	}
 
 	public ArrayList<Integer> getTermStartingIndices()
 	{
-		ArrayList<Integer> output = new ArrayList<Integer>(termStartingIndices.size());
+		ArrayList<Integer> output = new ArrayList<Integer>();
 		for(int i = 0; i < termStartingIndices.size(); i++)
 		{
-			output.set(i, termStartingIndices.get(i));
+			output.add(termStartingIndices.get(i));
 		}
 		return termStartingIndices;
 	}
