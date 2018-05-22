@@ -2,6 +2,8 @@ ProcessingUI/classifiers/*.ser.*
 ProcessingUI/classifiers/*.ser
 ProcessingUI/classifiers/*.prop
 ProcessingUI/testdata/*.xml
+ProcessingUI/testdata/*.pdf
+ProcessingUI/testdata/*.txt
 ProcessingUI/bin/*
 
 bin/
